@@ -1,0 +1,57 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic styling to the body */
+
+#gifImage {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 20px; /* Add some space between the GIF and the text */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the header */
+h1 {
+    color: #FF9C9C; /* Blue color */
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Add a bit of padding and a border to the main content area */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some spacing to the bottom of the page */
+footer {
+    margin-top: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
